@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &483573652458813840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54505322065479596}
+  - component: {fileID: 1257937636374244122}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54505322065479596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483573652458813840}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5548527668968228805}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257937636374244122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483573652458813840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbb5bcabeaef074e883f98c2e17ed73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - Name: Hit_Laser
+    Clip: {fileID: 8300000, guid: d081c331f5602d74982252bb43d11f4a, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Hit_Ball
+    Clip: {fileID: 8300000, guid: 8f591de385bbc3e4099ae13671a0392e, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Laser
+    Clip: {fileID: 8300000, guid: c9a676aa19f1c884c8c2595988bf4dc6, type: 3}
+    Loop: 1
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Jump
+    Clip: {fileID: 8300000, guid: b5ba5ee870d32b043b44f97d3ffe7f92, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: NextLevel
+    Clip: {fileID: 8300000, guid: 91d0cf86ccd55904e84fa8746c30832f, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Hammer_Des
+    Clip: {fileID: 8300000, guid: 4152e6fd1fa62fd4fa9b5a0fefebc28e, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Bomb
+    Clip: {fileID: 8300000, guid: 9dde35f2195fdd242b9305d70c5516c5, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Player_Dead
+    Clip: {fileID: 8300000, guid: 2ae91ce131a9f5b4fa22273222c88a11, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: BGM
+    Clip: {fileID: 8300000, guid: d999e7a58f809bb438fc40923f18e615, type: 3}
+    Loop: 1
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Good
+    Clip: {fileID: 8300000, guid: eb441454d0c42a542b3374391e031f38, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+  - Name: Bad
+    Clip: {fileID: 8300000, guid: f992a4a6821e0b84ebc21aead99ba1bf, type: 3}
+    Loop: 0
+    Pitch:
+      Max: 0
+      Min: 0
+--- !u!1 &3736074111541936888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5548527668968228805}
+  - component: {fileID: 394239114517296759}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5548527668968228805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736074111541936888}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 54505322065479596}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &394239114517296759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736074111541936888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c1591f6b4695c438b847ba27faf14b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

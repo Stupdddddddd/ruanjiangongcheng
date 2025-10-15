@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea49c4d4fd2b6f1468b9f9b9af6dab09, type: 3}
+  m_Name: Hust
+  m_EditorClassIdentifier: 
+  title: "\u4F60\u80FD\u505A\u7684\uFF0C\u5C82\u6B62\u4E8E\u6B64\uFF1F"
+  description: "\u57FA\u7840\u9053\u5177\u548C\u9677\u9631\u9053\u5177\u7684\u6570\u91CF\u6BD4\u9AD8\u4E8E\u4E09\u6BD4\u4E00\u65F6\uFF0C\u4E3B\u89D2\u7684\u8DF3\u8DC3\u80FD\u529B\u51CF\u5F31\u3002"
+  condition: "\uFF08x\uFF1Ay\uFF09"
+  icon: {fileID: 21300000, guid: eb79958dfc99c48408c62db5dfdab582, type: 3}
+  bar: {fileID: 21300000, guid: ae8ce491cd2204548b0ccbfbff8fd742, type: 3}
+  debuff: 1
+  target: 3
+  factor: 0.5

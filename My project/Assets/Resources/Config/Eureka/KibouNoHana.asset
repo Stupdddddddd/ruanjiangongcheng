@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c175714b112d41c4eacc589a8d796bcc, type: 3}
+  m_Name: KibouNoHana
+  m_EditorClassIdentifier: 
+  title: "\u4E0D\u8981\u505C\u4E0B\u6765\u554A\uFF01"
+  description: "\u8F6E\u6B21\u5230\u8FBE10\u65F6\uFF0C\u4E3B\u89D2\u8840\u91CF\u51CF1\u3002"
+  condition: "\uFF08x/10\uFF09"
+  icon: {fileID: 21300000, guid: 2a448c908d0ed5949948717f9fa61419, type: 3}
+  bar: {fileID: 21300000, guid: f9185a91211fb234fa972cd9c670e0f4, type: 3}
+  debuff: 1
+  round: 10
+  hp: 1

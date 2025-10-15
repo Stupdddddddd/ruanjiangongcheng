@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe8a685ef1d4f8408a5bdb6b0dedb6c, type: 3}
+  m_Name: TogenashiTogeari
+  m_EditorClassIdentifier: 
+  title: "\u6709\u523A\u65E0\u523A"
+  description: "\u573A\u4E0A\u5B58\u5728\u5730\u523A/\u8718\u86DB\u653E\u7F6E\u5728\u65CB\u8F6C\u72B6\u6001\u4E0B\u7684\u5E73\u53F0\uFF08\u5305\u62EC\u5E73\u53F0\uFF0C\u65B9\u5757\uFF0C\u76F4\u89D2\uFF09\u4E0A\u65F6\uFF0C\u8840\u91CF\u63D0\u5347\u81F33\u70B9\u3002"
+  condition: "\uFF08x/1\uFF09"
+  icon: {fileID: 21300000, guid: 27dbd9e9c833b8e499916e5f949b5642, type: 3}
+  bar: {fileID: 21300000, guid: 236c85c6c395cdf439012491e7efa395, type: 3}
+  hp: 2

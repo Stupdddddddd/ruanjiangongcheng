@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7cbc2bfd204fe548b8264e88e568ebd, type: 3}
+  m_Name: BombLab
+  m_EditorClassIdentifier: 
+  title: "\u90FD\u8BA9\u5F00\uFF0C\u8981\u70B8\u4E86\uFF01\uFF01\uFF01"
+  description: "\u6E38\u620F\u4E2D\u6240\u6709\u7684\u9053\u5177\uFF08\u70B8\u5F39\u9664\u5916\uFF0C\u6BCF\u79CD\u81F3\u5C11\u4E00\u4E2A\uFF09\u90FD\u88AB\u653E\u7F6E\u65F6\uFF0C\u4E0B\u8F6E\u4E2D\u4F1A\u51FA\u73B02\u4E2A\u70B8\u5F39\u53EF\u4F9B\u9009\u62E9\u3002"
+  condition: "\uFF08x/9\uFF09"
+  icon: {fileID: 21300000, guid: 0278a64c57b11b8439d41ae7e5d29c22, type: 3}
+  bar: {fileID: 21300000, guid: d815f1f063dc25a4d898f070da36e017, type: 3}
