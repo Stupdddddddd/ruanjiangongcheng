@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638953355543142801
-    m_Hash: 3029158233
+      ticks: 638961066260532195
+    m_Hash: 605545831
   m_LockFileStatus:
     m_FilePath: D:/19271/Documents/ruanjiangongcheng/ruanjiangongcheng/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638953355543348343
-    m_Hash: 2313599476
+      ticks: 638961066260532195
+    m_Hash: 1799455864
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -126,6 +126,7 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.3
+    - 2.10.0
     compatible:
     - 2.6.0
     - 2.7.1
@@ -134,6 +135,7 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.3
+    - 2.10.0
     recommended: 2.6.0
     deprecated: []
   dependencies: []
@@ -2812,10 +2814,12 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     - 2.0.23
+    - 2.0.25
     compatible:
     - 2.0.22
     - 2.0.23
-    recommended: 2.0.23
+    - 2.0.25
+    recommended: 2.0.25
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3463,9 +3467,11 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.1.0
+    - 2.1.1
     compatible:
     - 2.0.1
     - 2.1.0
+    - 2.1.1
     recommended: 2.0.1
     deprecated: []
   dependencies: []
