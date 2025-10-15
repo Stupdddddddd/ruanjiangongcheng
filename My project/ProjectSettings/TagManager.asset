@@ -8,18 +8,18 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - LayerTrigger
+  - EndPoint
+  - LoseHealth
+  - Kill
+  - Ball
+  - Steel
+  - BallCol
   - 
   - 
   - 
